@@ -3,7 +3,7 @@ import smtplib
 email = ""
 password = ""
 
-to_addresses  = ["ian.holl@ndow.org"]
+to_addresses  = [""]
 body = "I sent this with Python"
 
 header = ("From: {}\r\nTo: {}\r\n\r\n".format(email, ", ".join(to_addresses)))
